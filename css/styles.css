@@ -1,0 +1,68 @@
+header {
+  margin: 0.5rem 0;
+  justify-content: center;
+}
+body {
+  width: 100%; 
+  min-height: 100vh;
+  margin: 1rem 0;
+  background-image: url(/img/lady-896.png);
+  background-size: 102%;
+  object-fit: cover;
+}
+footer {
+  display: flex;
+  background-color: #f5f5f5;
+  position: sticky;
+  padding: 0 1rem 0;
+  flex-direction: row-reverse;
+  justify-content: center;
+  height: 20rem;
+  align-items: center;
+}
+.container{
+  display: grid;
+  grid-template-columns: 50px;
+  background-color: dodgerblue;
+}
+.item {
+  height: 150px;
+}
+
+:any-link {
+  text-decoration: none;
+  color: #fafafa;
+}
+.spacer {
+  height: 16rem;
+}
+.hero {
+  display: flex;
+  margin: 1rem 0 0;
+  justify-content: center;
+}
+.nav-menu {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.sub-logo {
+  display: flex;
+  color: #fafafa;
+  font-size: 3rem;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  justify-content: center;
+  margin: 0;
+}
+.menu-item {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.logo {
+  font-family: "Kristi", cursive;
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 414px) {
+}
