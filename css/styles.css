@@ -3,64 +3,18 @@ body {
   min-height: 100vh;
   margin: 0;
 }
-footer {
-  display: flex;
-  background-color: #333;
-  position: sticky;
-  padding: 0 1rem 0;
-  flex-direction: row-reverse;
-  justify-content: center;
-  height: 20rem;
-  align-items: center;
-}
-.container {
-  display: grid;
-  grid-template-columns: 100%;
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 10px;
-  background-color: dodgerblue;
-}
-.item {
-  height: 150px;
-}
-
-:any-link {
-  text-decoration: none;
-  color: #fafafa;
-}
-
-.hero {
-  display: flex;
-  margin: 0;
-  justify-content: center;
-  background-color: #333;
-}
-.nav-menu, #hidden-menu-links{
+.nav-menu,
+#hidden-menu-links {
   color: #fafafa;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  display: flex;
-  justify-content:space-evenly;
-  background-color: #333;
-  font-size: 1.5rem;
 }
-
-.menu-item {
-  padding: 1rem;
-  text-transform: uppercase;
-}
-div#hidden-menu-links{
-  display: none;
-  text-align: center;
-  border-radius: 0 0 10px 10px;
-}
-.icon {
-  font-size: 3rem;
-}
+/* 
+ Change the Sarah R Bailey ART logo
+*/
 .logo {
   font-family: "Kristi", cursive;
   font-size: 2.8rem;
-  margin: 1rem 0 0 1rem ;
+  margin: 1rem 0 0 1rem;
 }
 .sub-logo {
   display: flex;
@@ -68,7 +22,10 @@ div#hidden-menu-links{
   font-size: 2.3rem;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   justify-content: center;
-  margin: 1rem 0 0 0 ;
+  margin: 1rem 0 0 0;
 }
-@media only screen and (max-width: 414px) {
+/*  
+
+*/
+@media only screen and (min-width: 415px) and (max-width: 767px) {
 }
