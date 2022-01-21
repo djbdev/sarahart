@@ -20,29 +20,50 @@
       href="https://fonts.googleapis.com/css2?family=Kristi&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Sarah Bailey Art</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script>
+      function myFunction() {
+        var links = document.getElementById("hidden-menu-links");
+        if (links.style.display === "block") {
+          links.style.display = "none";
+        } else {
+          links.style.display = "block";
+        }
+      }
+    </script>
   </head>
   <body>
-    <section class="hero">
-      <div class="logo">
-        <a href="index.html">Sarah R Bailey</a>
-      </div>
-      &nbsp;&nbsp;
-      <div class="sub-logo">ART</div>
-    </section>
-    <section class="spacer"></section>
     <header>
       <section class="nav-menu">
-        <p>}</p>
+        <div class="hero">
+          <div class="logo">
+            <a href="index.html">Sarah R Bailey</a>
+          </div>
+          &nbsp;&nbsp;
+          <div class="sub-logo">ART</div>
+        </div>
+        <a
+          href="javascript:void(0);"
+          class="menu-item icon"
+          onclick="myFunction()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+      </section>
+      <div id="hidden-menu-links">
         <div class="menu-item"><a href="about.html">About</a></div>
         <div class="menu-item"><a href="gallery.html">Gallery</a></div>
         <div class="menu-item"><a href="contact.html">Contact</a></div>
         <div class="menu-item"><a href="index.html">Home</a></div>
-        <p>{</p>
-      </section>
+      </div>
     </header>
-    <section class="container"><div class="item">!</div></section>
+
+    <section class="container"><div class="item"></div></section>
     <footer>
       <p>&copy; Sarah R Bailey - 2022</p>
     </footer>
