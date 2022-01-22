@@ -1,7 +1,7 @@
 body {
   margin: 0;
 }
-.navbar{
+.navbar {
   border-bottom: 1px solid lightgray;
 }
 p.logo {
@@ -16,11 +16,14 @@ p.sub-logo {
   font-size: 1.8rem;
   margin-left: 0.5rem;
 }
-.container {
+.box {
   display: flex;
-  margin: 3rem;
-  height: 50vh;
+  padding: 0;
+  margin: 50% 0;
   justify-content: center;
+}
+.wolf {
+  width: 100%;
 }
 .nav-link {
   text-align: center;
@@ -30,5 +33,11 @@ p.sub-logo {
 /*  
 
 */
-@media only screen and (min-width: 415px) and (max-width: 767px) {
+@media only screen and (min-width: 989px) {
+  .box {
+    margin: 2rem;
+  }
+  .wolf {
+    width: 36vw;
+  }
 }
