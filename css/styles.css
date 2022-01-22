@@ -1,28 +1,33 @@
 body {
   width: 100%;
-  min-height: 100vh;
   margin: 0;
 }
-.nav-menu,
-#hidden-menu-links {
-  color: #fafafa;
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+footer{
+  text-align: center;
 }
 /* 
  Change the Sarah R Bailey ART logo
 */
-.logo {
+
+p.logo {
   font-family: "Kristi", cursive;
-  font-size: 2.8rem;
-  margin: 1rem 0 0 1rem;
+  display: inline;
+  font-size: 2.5rem;
 }
-.sub-logo {
-  display: flex;
-  color: #fafafa;
-  font-size: 2.3rem;
+p.sub-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  justify-content: center;
-  margin: 1rem 0 0 0;
+  display: inline;
+  font-size: 2rem
+}
+.display-1{
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.card {
+  margin: 0.5rem;
+}
+.nav-link{
+  text-align: center;
 }
 /*  
 

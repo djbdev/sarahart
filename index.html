@@ -29,10 +29,7 @@
       rel="stylesheet"
     />
     <!-- Link to main style sheet and fontawesome css: -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+  
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- Page title: -->
     <title>Sarah Bailey Art</title>
@@ -45,7 +42,10 @@
         <!-- Container for the menu-->
         <div class="container-fluid">
           <!-- Brand link-->
-          <a class="navbar-brand" href="#">Sarah R Bailey ART</a>
+          <a class="navbar-brand" href="#"
+            ><p class="logo">Sarah R Bailey</p>
+            <p class="sub-logo">ART</p></a
+          >
           <!-- Toggler button-->
           <button
             class="navbar-toggler"
@@ -78,15 +78,135 @@
     </header>
 
     <!-- Main content goes here: -->
-    <section class="container">
-      <div class="item"></div>
-    </section>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/frogtest.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/img/wolfslideshowbanner1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Featured items heading-->
+    <h1 class="display-1">Featured</h1>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <!--Featured item 1-->
+        <div class="card bg-dark text-white">
+          <img src="/img/Wolfstitchjpegsmall.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title">A Curious Wolf</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              A wolf stares curiously into an autumn forest, what could it be
+              that would catch his attention? Painted on a stretched 75 x 90 cm
+              canvas. Varnished with gloss and signed on the front...
+              <a href="...">Read more</a>
+            </p>
+            <p class="card-text">$3,850.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <!--Featured item 2-->
+        <div class="card bg-dark text-white">
+          <img src="/img/RavenSRBPNG.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title">Study of a Raven</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              This little study of a Raven is painted on a 20 x 20cm cotton
+              canvas. It is signed and varnished with gloss...
+              <a href="...">Read more</a>
+            </p>
+            <p class="card-text">$250.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <!--Featured item 3-->
+        <div class="card bg-dark text-white">
+          <img src="/img/frogforshop1.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title">Costa Rican Red-eyed Tree Frog</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              Painted on a 41 x 31cm premium wooden painting board this original
+              oil painting of a Costa Rican red-eyed tree frog is bound to hop a
+              little bit of colour right onto your wall and your life! The
+              wooden panel is left exposed around the edges to bring in a
+              feeling of naturalness. Varnished with gloss and signed...
+              <a href="...">Read more</a>
+            </p>
+            <p class="card-text">$880.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer goes here:-->
-    <footer>
+    <footer class="bd-footer py-5 mt-5 bg-light">
+      
       <p>&copy; Sarah R Bailey 2022</p>
     </footer>
     <!--Import Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
