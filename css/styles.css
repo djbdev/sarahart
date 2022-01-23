@@ -30,6 +30,15 @@ p.sub-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   text-transform: uppercase;
 }
+.nav-social-icons {
+  display: none;
+}
+.footer-social-icons {
+  text-align: center;
+}
+.social-icon {
+  color: rgba(0, 0, 0, 0.55);
+}
 /*  
 
 */
@@ -39,5 +48,11 @@ p.sub-logo {
   }
   .wolf {
     width: 36vw;
+  }
+  .nav-social-icons {
+    display: unset;
+  }
+  footer {
+    display: none;
   }
 }
